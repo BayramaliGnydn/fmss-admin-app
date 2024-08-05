@@ -24,6 +24,23 @@ export const Logo: React.FC<IconSvgProps> = ({
   </svg>
 );
 
+export const Home: React.FC<IconSvgProps> = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}) => (
+  <svg
+    fill="none"
+    height={size || height}
+    viewBox="0 0 24 24"
+    width={size || width}
+    {...props}
+  >
+    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="currentColor" />
+  </svg>
+);
+
 export const DiscordIcon: React.FC<IconSvgProps> = ({
   size = 24,
   width,
