@@ -34,7 +34,7 @@ export default function RootLayout({
     <html suppressHydrationWarning lang="en">
       <head />
       <body>
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <NavigationBars>
             <Card className="h-full w-full">{children}</Card>
           </NavigationBars>

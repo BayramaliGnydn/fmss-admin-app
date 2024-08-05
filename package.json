@@ -1,13 +1,13 @@
 {
-	"name": "next-app-template",
-	"version": "0.0.1",
-	"private": true,
+	"name": "fmss-next-admin-app",
+	"version": "1.0.5",
 	"scripts": {
 		"dev": "next dev --turbo",
 		"build": "next build",
 		"start": "next start",
 		"lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
 	},
+	"bin": "./bin/cli.js",
 	"dependencies": {
 		"@nextui-org/accordion": "^2.0.38",
 		"@nextui-org/avatar": "^2.0.32",
